@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request</title>
+    <link rel="stylesheet" href="CSS/EcoRolls.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/normalize1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Marhey:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="request">
+        <div class="page-head">
+            <h1>أطلب الان</h1>
+            <p>سيتم الرد عليكم خلال ساعات</p>
+        </div>
+        <div class="section-request">
+            <div class="dots dots-up"></div>
+            <div class="dots dots-down"></div>
+            <div class="container">
+                <h1>تفاصيل طلبك</h1>
+                <form action="https://api.web3forms.com/submit" method="post">
+                    <input type="hidden" name="access_key" value="bb8780c3-51cd-4697-9865-406ecd1b7456">
+                    <div class="details">
+                        <input type="text" placeholder="اسمك الاول والاخير" title="Please Set Your Name Here" name="Your Name" required>
+                        <input type="email" placeholder="عنوان البريد الالكتروني" title="Please Set Your Email Here" name="Your Email">
+                        <input type="tel" placeholder="رقم هاتفك للتواصل" title="Please Set Your NumberPhone Here" name="Your Phone" required>
+                    </div>
+                    <div class="order">
+                        <div class="chose">
+                            <div class="checkbox">
+                                <div class="con">
+                                    <input type="checkbox" placeholder="The Size" title="Please Set Your NumberPhone Here" name="The Size" id="cashair" value="كاشير 7.6">
+                                    <label for="cashair">كاشير</label>
+                                </div>
+                                <div class="num">
+                                    <input type="number" placeholder="The Amount" title="Please Set Your NumberPhone Here" name="The Amount">
+                                </div>
+                            </div>
+                            <div class="checkbox">
+                                <div class="con">
+                                    <input type="checkbox" placeholder="The Size" title="Please Set Your NumberPhone Here" name="The Size" id="fawri" value="5.9 فوري">
+                                    <label for="fawri">فوري</label>
+                                </div>
+                                <div class="num">
+                                    <input type="number" placeholder="The Amount" title="Please Set Your NumberPhone Here" name="The Amount">
+                                </div>
+                            </div>
+                            <div class="checkbox">
+                                <div class="con">
+                                    <input type="checkbox" placeholder="The Size" title="Please Set Your NumberPhone Here" name="The Size" id="barcode" value="باركود">
+                                    <label for="barcode">باركود</label>
+                                </div>
+                                <div class="num">
+                                    <input type="number" placeholder="The Amount" title="Please Set Your NumberPhone Here" name="The Amount">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="textarea">
+                        <textarea name="message" spellcheck="false" title="Tell Us Your Order" placeholder="أخبرنا بتفاصيل بما تحتاج ورأيك في الخدمة" required></textarea>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Send" title="Send Your Information">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
